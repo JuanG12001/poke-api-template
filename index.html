@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="assets/icon-image.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>PokéCap</title>
+</head>
+<body>
+  
+  <main class="main">
+
+      <header class="home container">
+
+          <h1 class="logo">PokéCap</h1>
+          
+          <div class="home__container container">
+           
+            <div class="home__img-container">
+              <img class="home__img" src="assets/gengar.png" alt="pokemon-gengar">
+            </div> 
+
+            <div class="home__texts-container">
+                
+              <h2 class="home__name-pokemon">Gengar</h2>
+               
+                <ul class="home__category">
+                  <li class="ghost home__category-tipo">
+                    <img class="home__icon" src="assets/icon-fantasma.png" alt="">
+                  </li>
+                  <li class="poison home__category-tipo">
+                    <img class="home__icon" src="assets/icon-poison.png" alt="">
+                  </li>
+                </ul>   
+                
+                <p class="home__sumary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, quo atque ex, ab repellat vitae, dolores ad quibusdam amet rerum fugit aliquam officia quis. Aliquam ut repellat quod excepturi iste!
+                Reiciendis consectetur expedita odio nesciunt voluptatibus? Ut dolore aspernatur recusandae fuga nam soluta molestias excepturi nemo, eveniet commodi at obcaecati adipisci voluptatem quis magni? Omnis natus laboriosam inventore dignissimos ea!
+                Magnam.</p>
+                
+                <button class="buttom buttom--animation">
+                  <img class="icon-pokeball" src="assets/icon-pokeball.png" alt="icon-pokeball">
+                  Capturar Pokémon
+                </button>
+                  
+                
+                
+                <div class="redes-icons">
+                  <i class="fa-brands fa-github"></i>
+                  <i class="fa-brands fa-linkedin"></i>
+                  <i class="fa-brands fa-whatsapp"></i>
+                </div>
+
+            </div> 
+
+          </div>
+
+      </header>
+
+      <section class="pokedex container" id="top">
+        
+        <div class="pokedex__container container">
+         
+          <div class="pokedex__container-text">
+            <h2 class="pokedex__title">¡Busca y captura a tus <span class="pokedex__title--color">3</span> Pokémon iniciales ahora!  </h2>
+            <p class="pokedex__sumary">Solo podrás capturar 3, y una vez los captures, no podrás cambiarlos. Abajo encontrarás todos los  Pokémones se colocara automáticamente en sus casillas. ¡Asegúrate de elegir bien y comienza tu aventura!</p>
+          </div>
+          
+          <div class="pokedex__container-content">
+            
+          <div class="pokedex__cotainer-img">
+            <img class="pokedex__img" src="assets/pj-pokedex.png" alt="">
+          </div> 
+
+          <div class="pokedex__cantainer-pokemon">
+
+            <div class="pokedex__pokemon-contaniner"><img class="pokedex__pokemon pokemon-uno" src="assets/pokeball.png" alt=""></div>
+            <div class="pokedex__pokemon-contaniner"><img class="pokedex__pokemon pokemon-two" src="assets/gengar.png" alt=""></div>
+            <div class="pokedex__pokemon-contaniner"><img class="pokedex__pokemon pokemon-three" src="assets/pokeball.png" alt=""></div>
+
+          </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+      <section class="search container">
+
+        <div class="search__container container">
+
+            <div class="searh__container-text-tipo">
+              
+              <div>
+
+                  <div class="search__container-tipos">
+                    <i class="fa-regular fa-clipboard"></i> 
+                    <h3 class="search__title-type">Busqueda por tipo:</h3>
+                  </div>
+  
+                  <ul class="tipo container">
+  
+                    <span data-type="tipo-todos" class="search__icon-home"><i class="fa-solid fa-house-chimney"></i></span>
+                  
+                    <li class="tipo__container">
+                      <button class="search__buttom" data-type="tipo-planta"><img class="search__img-icon" src="assets/icon-planta.png" alt=""></button>
+                    </li>
+                 
+                 </ul>
+
+              </div>
+              
+              
+              <div>
+                
+                <div class="search__container-name">
+                  <i class="search__icon-text fa-solid fa-magnifying-glass"></i> 
+                  <h3 class="search__title-type">Encuentre por pokémon:</h3>
+                </div>
+                
+                <div class="search__container-input">
+                  <input class="search__input" type="search" id="searchInput" placeholder="Buscar Pokémon" />
+                  <i class="search__icon-input fa-solid fa-magnifying-glass"></i> 
+                </div>
+                
+              </div>
+                
+          </div>
+
+        </div>
+
+      </section>
+
+
+
+      <section class="card container" >
+
+        <div class="card__auto-fit">
+
+          <article class="card__content container">
+
+              <figure class="card__header">
+                <img class="card__img" src="assets/gengar.png" alt="imagen de pokemon">
+              </figure>
+
+                <div class="card__container-text">
+                  <i class="fa-solid fa-circle"></i>
+                  <h2 class="card__title">Gengar</h2>
+                  <i class="fa-solid fa-circle"></i>
+                </div>
+                
+                
+                <ul class="card__type-container">
+                  <li class="ghost card__type">
+                      <img class="card__type-img" src="assets/icon-fantasma.png" alt="">
+                      ghost
+                  </li>
+                  <li class="poison card__type">
+                      <img class="card__type-img" src="assets/icon-poison.png" alt="">
+                      Poison
+                  </li>
+                </ul>  
+
+                <footer class="card__estadisticas">
+
+                  <div class="card__estadisticas-altura">
+                    <p class="card__altura">0.5 M</p>
+                    <span class="card__altura-icon"><i class="fa-solid fa-ruler"></i>Altura</span>
+                  </div>
+
+                  <div class="card__estadisticas-peso">
+                    <p class="card__peso">40.5 KG</p>
+                    <span class="card__peso-icon"><i class="fa-solid fa-dumbbell"></i>Peso</span>
+                  </div>
+                  
+                </footer>
+
+                <button class="buttom buttom--card  buttom--animation">
+                  <img class="icon-pokeball" src="assets/icon-pokeball.png" alt="icon-pokeball">
+                  Capturar Pokémon
+                </button>
+
+            </article>
+
+            <article class="card__content container">
+
+              <figure class="card__header">
+                <img class="card__img" src="assets/gengar.png" alt="imagen de pokemon">
+              </figure>
+
+                <div class="card__container-text">
+                  <i class="fa-solid fa-circle"></i>
+                  <h2 class="card__title">Gengar</h2>
+                  <i class="fa-solid fa-circle"></i>
+                </div>
+                
+                
+                <ul class="card__type-container">
+                  <li class="ghost card__type">
+                      <img class="card__type-img" src="assets/icon-fantasma.png" alt="">
+                      ghost
+                  </li>
+                  <li class="poison card__type">
+                      <img class="card__type-img" src="assets/icon-poison.png" alt="">
+                      Poison
+                  </li>
+                </ul>  
+
+                <footer class="card__estadisticas">
+
+                  <div class="card__estadisticas-altura">
+                    <p class="card__altura">0.5 M</p>
+                    <span class="card__altura-icon"><i class="fa-solid fa-ruler"></i>Altura</span>
+                  </div>
+
+                  <div class="card__estadisticas-peso">
+                    <p class="card__peso">40.5 KG</p>
+                    <span class="card__peso-icon"><i class="fa-solid fa-dumbbell"></i>Peso</span>
+                  </div>
+                  
+                </footer>
+
+                <button class="buttom buttom--card  buttom--animation">
+                  <img class="icon-pokeball" src="assets/icon-pokeball.png" alt="icon-pokeball">
+                  Capturar Pokémon
+                </button>
+
+            </article>
+
+
+            <article class="card__content container">
+
+              <figure class="card__header">
+                <img class="card__img" src="assets/gengar.png" alt="imagen de pokemon">
+              </figure>
+
+                <div class="card__container-text">
+                  <i class="fa-solid fa-circle"></i>
+                  <h2 class="card__title">Gengar</h2>
+                  <i class="fa-solid fa-circle"></i>
+                </div>
+                
+                
+                <ul class="card__type-container">
+                  <li class="ghost card__type">
+                      <img class="card__type-img" src="assets/icon-fantasma.png" alt="">
+                      ghost
+                  </li>
+                  <li class="poison card__type">
+                      <img class="card__type-img" src="assets/icon-poison.png" alt="">
+                      Poison
+                  </li>
+                </ul>  
+
+                <footer class="card__estadisticas">
+
+                  <div class="card__estadisticas-altura">
+                    <p class="card__altura">0.5 M</p>
+                    <span class="card__altura-icon"><i class="fa-solid fa-ruler"></i>Altura</span>
+                  </div>
+
+                  <div class="card__estadisticas-peso">
+                    <p class="card__peso">40.5 KG</p>
+                    <span class="card__peso-icon"><i class="fa-solid fa-dumbbell"></i>Peso</span>
+                  </div>
+                  
+                </footer>
+
+                <button class="buttom buttom--card  buttom--animation">
+                  <img class="icon-pokeball" src="assets/icon-pokeball.png" alt="icon-pokeball">
+                  Capturar Pokémon
+                </button>
+
+            </article>
+
+            <article class="card__content container">
+
+              <figure class="card__header">
+                <img class="card__img" src="assets/gengar.png" alt="imagen de pokemon">
+              </figure>
+
+                <div class="card__container-text">
+                  <i class="fa-solid fa-circle"></i>
+                  <h2 class="card__title">Gengar</h2>
+                  <i class="fa-solid fa-circle"></i>
+                </div>
+                
+                
+                <ul class="card__type-container">
+                  <li class="ghost card__type">
+                      <img class="card__type-img" src="assets/icon-fantasma.png" alt="">
+                      ghost
+                  </li>
+                  <li class="poison card__type">
+                      <img class="card__type-img" src="assets/icon-poison.png" alt="">
+                      Poison
+                  </li>
+                </ul>  
+
+                <footer class="card__estadisticas">
+
+                  <div class="card__estadisticas-altura">
+                    <p class="card__altura">0.5 M</p>
+                    <span class="card__altura-icon"><i class="fa-solid fa-ruler"></i>Altura</span>
+                  </div>
+
+                  <div class="card__estadisticas-peso">
+                    <p class="card__peso">40.5 KG</p>
+                    <span class="card__peso-icon"><i class="fa-solid fa-dumbbell"></i>Peso</span>
+                  </div>
+                  
+                </footer>
+
+                <button class="buttom buttom--card  buttom--animation">
+                  <img class="icon-pokeball" src="assets/icon-pokeball.png" alt="icon-pokeball">
+                  Capturar Pokémon
+                </button>
+
+            </article>
+
+
+        </div>
+
+      </section>
+
+      <section class="pages container">
+
+        <div class="pages__container">
+        
+          <div class="pages__minus">
+            <i class="fa-solid fa-minus"></i>
+          </div>
+
+          <h3 class="pages__number">0</h3>
+          
+          <div class="pages__minus">
+            <i class="fa-solid fa-plus"></i>
+          </div>
+       
+        </div>
+
+      </section>
+
+      <section class="footer container">
+          <div class="footer_container">
+            
+            <div class="footer__text">
+              <h3 class="footer_name">Juan Garcia</h3>
+              <h4 class="footer__correo">juanenriquegarcia126@gmail.com</h4>
+            </div>
+            
+            <div>
+              <div class="redes-icons">
+                <i class="fa-brands fa-github"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+              </div>
+            </div>
+        
+          </div>
+      </section>
+
+
+      <a href="#top" class="scroll">
+        <i class="fa-solid fa-chevron-up"></i>
+      </a>
+
+  </main>
+
+  <script src="https://kit.fontawesome.com/5db7340be0.js" crossorigin="anonymous"></script>
+</body>
+</html>
